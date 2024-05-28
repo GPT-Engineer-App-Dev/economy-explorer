@@ -6,7 +6,7 @@ const Index = () => {
   const currencyExchangeData = ["USD/EUR: 0.85", "USD/GBP: 0.75", "USD/JPY: 110.00"];
 
   return (
-    <Container maxW="container.xl" py={8}>
+    <Container maxW="container.xl" py={8} bg="#fff1e5">
       <Flex direction={{ base: "column", md: "row" }} spacing={8}>
         <Box flex="3" mr={{ md: 8 }}>
           <Heading as="h1" mb={4}>Featured Article</Heading>
